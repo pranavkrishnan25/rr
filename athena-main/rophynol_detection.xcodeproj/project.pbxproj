@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380D83AE29E76FCE009043BF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D83AD29E76FCE009043BF /* SettingsView.swift */; };
+		380D83B029E76FE0009043BF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D83AF29E76FE0009043BF /* ProfileView.swift */; };
+		380D83B229E76FF0009043BF /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D83B129E76FF0009043BF /* TutorialView.swift */; };
+		412965ED29E3A19C00B98345 /* rophynol_detectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412965EC29E3A19C00B98345 /* rophynol_detectionApp.swift */; };
+		412965EF29E3A19C00B98345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412965EE29E3A19C00B98345 /* ContentView.swift */; };
+		412965F129E3A19E00B98345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412965F029E3A19E00B98345 /* Assets.xcassets */; };
+		412965F429E3A19E00B98345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412965F329E3A19E00B98345 /* Preview Assets.xcassets */; };
+		412965FE29E3A19E00B98345 /* rophynol_detectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412965FD29E3A19E00B98345 /* rophynol_detectionTests.swift */; };
+		4129660829E3A19E00B98345 /* rophynol_detectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129660729E3A19E00B98345 /* rophynol_detectionUITests.swift */; };
+		4129660A29E3A19E00B98345 /* rophynol_detectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129660929E3A19E00B98345 /* rophynol_detectionUITestsLaunchTests.swift */; };
+		4129661729E3A26600B98345 /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129661629E3A26600B98345 /* CirclesView.swift */; };
+		4129661929E3A2E800B98345 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129661829E3A2E800B98345 /* MapView.swift */; };
+		4129661B29E3A3D600B98345 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129661A29E3A3D600B98345 /* UserList.swift */; };
+		4129661D29E5014F00B98345 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129661C29E5014F00B98345 /* BottomBar.swift */; };
+		4129661F29E5BC0500B98345 /* SlidingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129661E29E5BC0500B98345 /* SlidingSheet.swift */; };
+		41EE5C8D29E84C730010DE4B /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE5C8C29E84C730010DE4B /* ContactsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412965FA29E3A19E00B98345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412965E129E3A19C00B98345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412965E829E3A19C00B98345;
+			remoteInfo = rophynol_detection;
+		};
+		4129660429E3A19E00B98345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412965E129E3A19C00B98345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412965E829E3A19C00B98345;
+			remoteInfo = rophynol_detection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380D83AD29E76FCE009043BF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		380D83AF29E76FE0009043BF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		380D83B129E76FF0009043BF /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		412965E929E3A19C00B98345 /* rophynol_detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rophynol_detection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412965EC29E3A19C00B98345 /* rophynol_detectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rophynol_detectionApp.swift; sourceTree = "<group>"; };
+		412965EE29E3A19C00B98345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		412965F029E3A19E00B98345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		412965F329E3A19E00B98345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		412965F929E3A19E00B98345 /* rophynol_detectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rophynol_detectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412965FD29E3A19E00B98345 /* rophynol_detectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rophynol_detectionTests.swift; sourceTree = "<group>"; };
+		4129660329E3A19E00B98345 /* rophynol_detectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rophynol_detectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4129660729E3A19E00B98345 /* rophynol_detectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rophynol_detectionUITests.swift; sourceTree = "<group>"; };
+		4129660929E3A19E00B98345 /* rophynol_detectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rophynol_detectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4129661629E3A26600B98345 /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
+		4129661829E3A2E800B98345 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4129661A29E3A3D600B98345 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		4129661C29E5014F00B98345 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		4129661E29E5BC0500B98345 /* SlidingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingSheet.swift; sourceTree = "<group>"; };
+		41EE5C8C29E84C730010DE4B /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412965E629E3A19C00B98345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412965F629E3A19E00B98345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129660029E3A19E00B98345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412965E029E3A19C00B98345 = {
+			isa = PBXGroup;
+			children = (
+				412965EB29E3A19C00B98345 /* rophynol_detection */,
+				412965FC29E3A19E00B98345 /* rophynol_detectionTests */,
+				4129660629E3A19E00B98345 /* rophynol_detectionUITests */,
+				412965EA29E3A19C00B98345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		412965EA29E3A19C00B98345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412965E929E3A19C00B98345 /* rophynol_detection.app */,
+				412965F929E3A19E00B98345 /* rophynol_detectionTests.xctest */,
+				4129660329E3A19E00B98345 /* rophynol_detectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		412965EB29E3A19C00B98345 /* rophynol_detection */ = {
+			isa = PBXGroup;
+			children = (
+				4129661829E3A2E800B98345 /* MapView.swift */,
+				4129661629E3A26600B98345 /* CirclesView.swift */,
+				412965EC29E3A19C00B98345 /* rophynol_detectionApp.swift */,
+				412965EE29E3A19C00B98345 /* ContentView.swift */,
+				4129661A29E3A3D600B98345 /* UserList.swift */,
+				4129661C29E5014F00B98345 /* BottomBar.swift */,
+				380D83B129E76FF0009043BF /* TutorialView.swift */,
+				380D83AF29E76FE0009043BF /* ProfileView.swift */,
+				4129661E29E5BC0500B98345 /* SlidingSheet.swift */,
+				380D83AD29E76FCE009043BF /* SettingsView.swift */,
+				41EE5C8C29E84C730010DE4B /* ContactsView.swift */,
+				412965F029E3A19E00B98345 /* Assets.xcassets */,
+				412965F229E3A19E00B98345 /* Preview Content */,
+			);
+			path = rophynol_detection;
+			sourceTree = "<group>";
+		};
+		412965F229E3A19E00B98345 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				412965F329E3A19E00B98345 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		412965FC29E3A19E00B98345 /* rophynol_detectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				412965FD29E3A19E00B98345 /* rophynol_detectionTests.swift */,
+			);
+			path = rophynol_detectionTests;
+			sourceTree = "<group>";
+		};
+		4129660629E3A19E00B98345 /* rophynol_detectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4129660729E3A19E00B98345 /* rophynol_detectionUITests.swift */,
+				4129660929E3A19E00B98345 /* rophynol_detectionUITestsLaunchTests.swift */,
+			);
+			path = rophynol_detectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412965E829E3A19C00B98345 /* rophynol_detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129660D29E3A19E00B98345 /* Build configuration list for PBXNativeTarget "rophynol_detection" */;
+			buildPhases = (
+				412965E529E3A19C00B98345 /* Sources */,
+				412965E629E3A19C00B98345 /* Frameworks */,
+				412965E729E3A19C00B98345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rophynol_detection;
+			productName = rophynol_detection;
+			productReference = 412965E929E3A19C00B98345 /* rophynol_detection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412965F829E3A19E00B98345 /* rophynol_detectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129661029E3A19E00B98345 /* Build configuration list for PBXNativeTarget "rophynol_detectionTests" */;
+			buildPhases = (
+				412965F529E3A19E00B98345 /* Sources */,
+				412965F629E3A19E00B98345 /* Frameworks */,
+				412965F729E3A19E00B98345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412965FB29E3A19E00B98345 /* PBXTargetDependency */,
+			);
+			name = rophynol_detectionTests;
+			productName = rophynol_detectionTests;
+			productReference = 412965F929E3A19E00B98345 /* rophynol_detectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4129660229E3A19E00B98345 /* rophynol_detectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129661329E3A19E00B98345 /* Build configuration list for PBXNativeTarget "rophynol_detectionUITests" */;
+			buildPhases = (
+				412965FF29E3A19E00B98345 /* Sources */,
+				4129660029E3A19E00B98345 /* Frameworks */,
+				4129660129E3A19E00B98345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4129660529E3A19E00B98345 /* PBXTargetDependency */,
+			);
+			name = rophynol_detectionUITests;
+			productName = rophynol_detectionUITests;
+			productReference = 4129660329E3A19E00B98345 /* rophynol_detectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412965E129E3A19C00B98345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					412965E829E3A19C00B98345 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					412965F829E3A19E00B98345 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 412965E829E3A19C00B98345;
+					};
+					4129660229E3A19E00B98345 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 412965E829E3A19C00B98345;
+					};
+				};
+			};
+			buildConfigurationList = 412965E429E3A19C00B98345 /* Build configuration list for PBXProject "rophynol_detection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 412965E029E3A19C00B98345;
+			productRefGroup = 412965EA29E3A19C00B98345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412965E829E3A19C00B98345 /* rophynol_detection */,
+				412965F829E3A19E00B98345 /* rophynol_detectionTests */,
+				4129660229E3A19E00B98345 /* rophynol_detectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412965E729E3A19C00B98345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412965F429E3A19E00B98345 /* Preview Assets.xcassets in Resources */,
+				412965F129E3A19E00B98345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412965F729E3A19E00B98345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129660129E3A19E00B98345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412965E529E3A19C00B98345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129661B29E3A3D600B98345 /* UserList.swift in Sources */,
+				380D83B029E76FE0009043BF /* ProfileView.swift in Sources */,
+				380D83AE29E76FCE009043BF /* SettingsView.swift in Sources */,
+				412965EF29E3A19C00B98345 /* ContentView.swift in Sources */,
+				4129661D29E5014F00B98345 /* BottomBar.swift in Sources */,
+				4129661929E3A2E800B98345 /* MapView.swift in Sources */,
+				412965ED29E3A19C00B98345 /* rophynol_detectionApp.swift in Sources */,
+				4129661F29E5BC0500B98345 /* SlidingSheet.swift in Sources */,
+				380D83B229E76FF0009043BF /* TutorialView.swift in Sources */,
+				41EE5C8D29E84C730010DE4B /* ContactsView.swift in Sources */,
+				4129661729E3A26600B98345 /* CirclesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412965F529E3A19E00B98345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412965FE29E3A19E00B98345 /* rophynol_detectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412965FF29E3A19E00B98345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129660829E3A19E00B98345 /* rophynol_detectionUITests.swift in Sources */,
+				4129660A29E3A19E00B98345 /* rophynol_detectionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412965FB29E3A19E00B98345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412965E829E3A19C00B98345 /* rophynol_detection */;
+			targetProxy = 412965FA29E3A19E00B98345 /* PBXContainerItemProxy */;
+		};
+		4129660529E3A19E00B98345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412965E829E3A19C00B98345 /* rophynol_detection */;
+			targetProxy = 4129660429E3A19E00B98345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4129660B29E3A19E00B98345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4129660C29E3A19E00B98345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4129660E29E3A19E00B98345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rophynol_detection/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athena.willowtree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4129660F29E3A19E00B98345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rophynol_detection/Preview Content\"";
+				DEVELOPMENT_TEAM = A85EQ2R96Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athena.willowtree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4129661129E3A19E00B98345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58X498839K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UNC.rophynol-detectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rophynol_detection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rophynol_detection";
+			};
+			name = Debug;
+		};
+		4129661229E3A19E00B98345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58X498839K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UNC.rophynol-detectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rophynol_detection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rophynol_detection";
+			};
+			name = Release;
+		};
+		4129661429E3A19E00B98345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58X498839K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UNC.rophynol-detectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rophynol_detection;
+			};
+			name = Debug;
+		};
+		4129661529E3A19E00B98345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58X498839K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UNC.rophynol-detectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rophynol_detection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412965E429E3A19C00B98345 /* Build configuration list for PBXProject "rophynol_detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129660B29E3A19E00B98345 /* Debug */,
+				4129660C29E3A19E00B98345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129660D29E3A19E00B98345 /* Build configuration list for PBXNativeTarget "rophynol_detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129660E29E3A19E00B98345 /* Debug */,
+				4129660F29E3A19E00B98345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129661029E3A19E00B98345 /* Build configuration list for PBXNativeTarget "rophynol_detectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129661129E3A19E00B98345 /* Debug */,
+				4129661229E3A19E00B98345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129661329E3A19E00B98345 /* Build configuration list for PBXNativeTarget "rophynol_detectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129661429E3A19E00B98345 /* Debug */,
+				4129661529E3A19E00B98345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412965E129E3A19C00B98345 /* Project object */;
+}
